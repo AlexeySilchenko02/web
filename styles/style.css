@@ -1,0 +1,87 @@
+.menu{
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu a{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: tomato;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+header{
+    background-color:black;
+    color: white;
+}
+body{
+    margin: 0;
+}
+.button-right{
+    text-align: right;
+}
+.button-me{
+    text-decoration: none;
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 3px;
+    padding: 10px;
+}
+.button-me:hover{
+    text-decoration: underline;
+    color:rgb(255, 8, 0);
+    background-color: tomato;
+}
+footer{
+    background-color:black;
+    color: white;
+    padding: 20px 0 37px 0;
+    margin-top: 2rem;
+}
+.avatar{
+    margin: 3rem 0 ;
+    text-align: center;
+    height: 350px;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.avatar img{
+    
+    height: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.py-5{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.w50{
+    max-width: 50%;
+}
+.my-3{
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+}
+.auto{
+    margin-left: auto ;
+    margin-right: auto;
+}
+.contact{
+    color: brown;
+    border-color: darkblue ;
+    border-radius: 5px;
+    border: 2px solid tomato;
+}
+.contact:hover{
+    text-decoration: underline;
+    color:rgb(255, 8, 0);
+    background-color: tomato;
+}
